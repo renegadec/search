@@ -40,3 +40,83 @@ ul > a, ul > a {
     cursor: pointer;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+h1 {
+    font-family: Product Sans;
+    font-size: 5.5em;
+}
+
+.my-input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 38px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+}
+
+.my-input-container:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.my-input-container > input {
+    flex-grow: 1;
+    border: none;
+    outline:none;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.my-button-container {
+    padding-top: 53px;
+}
+
+button {
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+#footer-left {
+    display: flex;
+    justify-self: start;
+    padding-left: 20px;
+    align-items: center;
+}
+
+#footer-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
