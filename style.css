@@ -32,6 +32,9 @@ ul > a, ul > a {
 
 .header-img {
         padding: 5px;
+        height: 23px;
+        position: relative;
+        bottom: 4px;
 }
 
 .header-img:hover {
@@ -59,24 +62,44 @@ h1 {
     font-size: 5.5em;
 }
 
-.my-input-container {
-    display: flex;
-    justify-content: space-between;
-    width: 600px;
+.mag-glass {
     height: 38px;
-    border: 2px solid gainsboro;
-    border-radius: 10px;
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.my-input-container {
+    margin: 0 auto;
+    width: 575px;
+    border: 1px solid #dcdcdc;
+    border-radius: 30px;
 }
 
 .my-input-container:hover {
     box-shadow: 0 0 10px 0 gainsboro;
 }
 
-.my-input-container > input {
+.searchbar {
+    height: 45px;
+    border: none;
+    width: 500px;
+    font-size: 20px;
+    outline: none;
+}
+
+.voice {
+    height: 25px;
+    position: relative;
+    top: 2px;
+    right: 7px;
+}
+
+/*.my-input-container > form > input {
     flex-grow: 1;
     border: none;
     outline:none;
-}
+}*/
 
 img:hover {
     cursor: pointer;
