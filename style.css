@@ -120,3 +120,52 @@ footer {
     margin-right: 20px;
     align-items: center;
 }
+
+@media (max-width: 630px) {
+    
+    #footer-nav {
+        flex-direction: column;
+    }
+
+    #footer-left {
+        justify-content: center;
+    }
+
+    #footer-right {
+        justify-content: center;
+    }
+
+    .my-input-container {
+        width: 95vw;
+    }
+}
+
+@media (max-height: 522px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-height: 570px) and (max-width: 630px) {
+    
+    body {
+        overflow-x:hidden;
+    }
+
+    section {
+        margin-bottom: 13px;
+    }
+
+    footer {
+        position: relative;
+    }
+
+}
