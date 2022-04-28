@@ -14,12 +14,16 @@ a:hover {
     text-decoration: underline;
 }
 
+nav {
+        display: flex;
+        justify-content: space-between
+}
+
 .header-nav {
     display: flex;
     align-items: center;
     padding-left: 20px;
     margin-right: 10px;
-    justify-content: flex-end;
 }
 
 ul > a, ul > a {
@@ -58,49 +62,63 @@ h1 {
     font-size: 5.5em;
 }
 
+.mag-glass {
+    height: 38px;
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
 .my-input-container {
-    width: 584px;
+    margin: 0 auto;
+    width: 575px;
     border: 1px solid #dcdcdc;
-    border-radius: 24px;
-    height: 17px;
-    display: flex;
-    align-items: center;
-    padding: 13px;
+    border-radius: 30px;
 }
 
 .my-input-container:hover {
     box-shadow: 0 0 10px 0 gainsboro;
 }
 
-.my-input-container i {
-    color: lightgrey;
+.searchbar {
+    height: 45px;
+    border: none;
+    width: 500px;
+    font-size: 20px;
+    outline: none;
 }
 
-.searchbar {
+.voice {
+    height: 25px;
+    position: relative;
+    top: 2px;
+    right: 7px;
+}
+
+/*.my-input-container > form > input {
+    flex-grow: 1;
     border: none;
-    width: 100%;
-    font-size: 20px;
-    outline: none !important;
-    margin-left: 7px;
-    box-shadow: none !important;
+    outline:none;
+}*/
+
+img:hover {
+    cursor: pointer;
 }
 
 .my-button-container {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
+    padding-top: 53px;
 }
 
-.my-button-container input {
+button {
     background-color: #F8F9FA;
     border-radius: 5px;
-    border: 1px solid #F8F9FA;
+    border: none;
     height: 36px;
     padding: 0 20px;
     margin: 0 4px;
 }
 
-.my-button-container input:hover {
+button:hover {
     cursor: pointer;
     box-shadow: 0 0 10px 0 gainsboro;
 }
