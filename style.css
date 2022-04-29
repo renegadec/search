@@ -20,7 +20,6 @@ a:hover {
     padding-left: 20px;
     margin-right: 10px;
     justify-content: flex-end;
-
 }
 
 .nav {
@@ -193,36 +192,71 @@ footer {
 
 }
 
-.div-container .heading {
-    font-size: 16px;
-    min-width: 167px;
-    width: 16%;
-    font-weight: 500;
-    color: #333;
-}
-
-.div-container .to-do {
-    color: #777;
-    font-weight: bold;
-    font-size: 13px;
+.div-container-wrap {
+    margin-left: 20px;
 }
 
 .div-container {
     display: flex;
-    align-items: center;
-    max-width: 1140px;
-    min-width: 200px;
-    width: 96%;
-    margin: 40px 2% 0 45px;
 }
 
-.div-container .input-field {
-    min-width: 200px;
-    width: 50%;
+.div-container div {
+    padding: 5px;
 }
 
-.div-container .words-title {
-    width: 200px;
+.heading, .heading-2, .heading-3, .heading-4 {
+    flex:1;
+}
+
+.input-field, .input-field-2, .input-field-3, .input-field-4 {
+    flex: 2;
+}
+
+.to-do, .to-do-2, .to-do-3, .to-do-4 {
+    flex: 1;
+}
+
+.div-container span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+.div-container .input-field input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
     font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 90%;
 }
 
+.div-container .input-field-2 input {
+
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+.div-container .button input {
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    color: white;
+    height: 30px;
+    min-width: 120px;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.div-container .button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
