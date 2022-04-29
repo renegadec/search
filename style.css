@@ -20,6 +20,17 @@ a:hover {
     padding-left: 20px;
     margin-right: 10px;
     justify-content: flex-end;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: larger;
 }
 
 ul > a, ul > a {
@@ -37,6 +48,13 @@ ul > a, ul > a {
     box-shadow: 0 0 10px 0 gainsboro;
     border-radius: 20px;
     cursor: pointer;
+}
+
+#advancedSearch h2 {
+    margin-left: 45px;
+    color: rgba(220, 33, 33, 0.862);
+    font-weight: normal;
+    font-size: 20px;
 }
 
 section {
@@ -174,3 +192,37 @@ footer {
     }
 
 }
+
+.div-container .heading {
+    font-size: 16px;
+    min-width: 167px;
+    width: 16%;
+    font-weight: 500;
+    color: #333;
+}
+
+.div-container .to-do {
+    color: #777;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.div-container {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.div-container .input-field {
+    min-width: 200px;
+    width: 50%;
+}
+
+.div-container .words-title {
+    width: 200px;
+    font-size: 13px;
+}
+
